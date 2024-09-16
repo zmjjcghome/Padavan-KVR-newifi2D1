@@ -12,6 +12,9 @@ download_test:
 		cd $(SRC_NAME) ; \
 		git submodule update --init --recursive ; \
 		patch -p1 -i ../msd_lite.diff ; \
+		cd src/liblcb ; \
+		patch -p1 -i ../../../liblcb_msd_lite.diff ; \
+		cd ../../; \
 	fi )
 
 config_test:

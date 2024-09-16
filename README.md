@@ -8,6 +8,10 @@
 
 编译了openvpn后，配置页面在网络地图-网络状态-更多设置的菜单里、不会出现在主页面的菜单中！
 
+frps界面开关需要的自己去把那部分注释删掉就可以了！ https://github.com/fightroad/Padavan-KVR/commit/01dedd47494696e7a2c4fde2204e69a17f3f8942
+
+测试ssp 绕过模式、全局、回国模式有问题，界面只保留了gfw模式！
+
 # 版本特点：
 
 1、mac系统打开页面响应慢的问题，适配手机页面，精简部分页面显示内容。
@@ -89,6 +93,10 @@ wifi密码
 注意：action一键编译不会理会build_firmware_modify 脚本里面的配置。template里配置了和脚本里一样的配置会直接使用脚本里的！！！
 
 ![配置1](https://github.com/fightroad/Padavan-KVR/assets/39027157/4bc31b0d-a1c8-4ed9-8ff7-f6babb060ba5)
+
+
+# 下图说的删除是指在那部分内容中增加删除配置的命令，不是把原来有的命令内容删掉！！！
+
 ![image](https://github.com/fightroad/Padavan-KVR/assets/39027157/aed2259d-125d-4f71-bf4c-9e4fef141656)
 
 
